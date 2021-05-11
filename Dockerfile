@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM ubuntu:20.04
 
 RUN apt -qq update
 RUN apt install -qq -y openjdk-8-jdk > /dev/null
