@@ -11,7 +11,7 @@ RUN mv /usr/opt/android/cmdline-tools/cmdline-tools /usr/opt/android/cmdline-too
 
 ENV JAVA_HOME /usr/lib/jvm/java-8-openjdk-amd64
 ENV ANDROID_HOME /usr/opt/android
-ENV ANDROID_NDK_HOME ${ANDROID_HOME}/ndk-bundle
+ENV ANDROID_NDK_HOME ${ANDROID_HOME}/ndk/23.1.7779620
 ENV PATH /usr/opt/android/cmdline-tools/latest:/usr/opt/android/cmdline-tools/latest/bin:$PATH
 ENV _JAVA_OPTIONS -XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap
 
